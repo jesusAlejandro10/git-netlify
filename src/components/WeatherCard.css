@@ -1,0 +1,107 @@
+.card{
+    background: rgba(255, 255, 255, .15);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(2px);
+    border-radius: 12px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    }
+
+    @media screen and (min-width:900px) {
+        .card{
+           width: 25%;
+        }
+    }
+
+    @media screen and (max-width:750px){
+        .card{
+            width: 55%;
+        }
+    }
+
+    .card__title{
+        color: white;
+        font-size: 2rem;
+    }
+
+    .card__country{
+        color: white;
+        margin-right: 0.5em;
+    }
+
+    .card__image-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info__title{
+       font-size: 1.5rem;
+       color: white;
+       text-transform: capitalize;
+    }
+
+    .info__list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .info__li{
+        color: white;
+
+    }
+
+    .span__title{
+        font-weight: 700;
+        margin-right: 1em;
+        
+    }
+
+    .info__flex{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .clouds{
+        margin-right: 1.3em;
+    }
+
+    .pressure{
+        margin-left: 0.9em;
+    }
+
+    .tenp{
+        color: white;
+    }
+
+    .tenp__btn{
+        border-radius: 20px;
+        background-color: #0e858d;
+        color: white;
+        font-weight: 500;
+        width:180px ;
+        height: 30px;
+        cursor: pointer;
+    }
+
+    .tenp__btn:hover{
+        background-color: #2ebfca;
+        transform:scale(1.05);
+        transition: all 200ms ease;
+    }
